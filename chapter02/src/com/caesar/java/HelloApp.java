@@ -1,4 +1,4 @@
-package com.caesar;
+package com.caesar.java;
 
 public class HelloApp {
     /**
