@@ -1,3 +1,5 @@
+package com.caesar;
+
 public class StackStruTest {
     public static void main(String[] args) {
         int i = 2;

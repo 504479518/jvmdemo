@@ -1,3 +1,5 @@
+package com.caesar;
+
 import java.sql.Driver;
 import java.sql.DriverManager;
 
@@ -29,18 +31,18 @@ public class ClassLoaderInfo extends ClassLoader {
      */
     public static void main(String[] args) {
         // todo getParent(); 返回该类加载器的超类加载器
-        //ClassLoader parent = new ClassLoaderInfo().getParent(); 返回该类加载器的超类加载器
+        //ClassLoader parent = new com.caesar.ClassLoaderInfo().getParent(); 返回该类加载器的超类加载器
 
         //todo findClass("");加载名称为name的类，返回结果为java.lang.Class类的实例
-        //new ClassLoaderInfo().findClass("");
+        //new com.caesar.ClassLoaderInfo().findClass("");
 
         //todo findLoadedClass("");查找名称为name的已经被加载过的java类，返回结果为java.lang.Class类的实例
-        //Class<?> loadedClass = new ClassLoaderInfo().findLoadedClass("");
+        //Class<?> loadedClass = new com.caesar.ClassLoaderInfo().findLoadedClass("");
 
         //todo defineClass(String name,byte[] b,int off, int len); 把字节数组b中的内容转换为一个java类，返回结果为java.lang.Class类的实例
-        //new ClassLoaderInfo().defineClass(String name,byte[] b,int off, int len);
+        //new com.caesar.ClassLoaderInfo().defineClass(String name,byte[] b,int off, int len);
 
         //todo resolveClass(Class<?> c);连接指定的一个java类
-        //new ClassLoaderInfo().resolveClass(Class<?> c);
+        //new com.caesar.ClassLoaderInfo().resolveClass(Class<?> c);
     }
 }
