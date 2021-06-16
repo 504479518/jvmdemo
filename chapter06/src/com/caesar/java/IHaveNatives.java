@@ -15,7 +15,7 @@ package com.caesar.java;
  */
 public class IHaveNatives {
 
-    public native void Native1(int x);
+public native void Native1(int x);
 
     public native static long Native2();
 
