@@ -1,7 +1,7 @@
 package com.caesar.java;
 
 /**
- * @author Nicolas Caesar
+ * @auth or Nicolas Caesar
  * <p>
  * java需要调用系统的线程，所系需要调用c++实现的Native Method
  * <p>

@@ -9,4 +9,5 @@ public class Main {
     public int getAge() {
         return age;
     }
+
 }
